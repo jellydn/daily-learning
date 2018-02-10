@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "daily-learning",
+  "devDependencies": {
+    "lerna": "^2.8.0"
+  },
+  "workspaces": ["packages/*"]
+}

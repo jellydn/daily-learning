@@ -5,3 +5,6 @@ node_modules
 
 # IDE
 .vscode
+dist
+.cache
+.env

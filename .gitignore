@@ -8,3 +8,5 @@ node_modules
 dist
 .cache
 .env
+pages/apollo
+pages/re-duck

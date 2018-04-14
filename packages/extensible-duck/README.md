@@ -1,6 +1,6 @@
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/jellydn/daily-learning/tree/master/packages/extensible-duck)
 
-# Apollo example
+# An example for bundling reducers, action types and actions when using Redux
 
 ## How to use
 

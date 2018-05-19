@@ -2,8 +2,8 @@
   "private": true,
   "name": "daily-learning",
   "devDependencies": {
-    "lerna": "^2.8.0",
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.1.0",
+    "lerna": "^2.11.0"
   },
   "scripts": {
     "deploy": "gh-pages -d pages"

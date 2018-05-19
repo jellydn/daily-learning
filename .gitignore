@@ -2,6 +2,7 @@
 build
 elm-stuff
 node_modules
+flow-typed
 *.log
 
 # IDE

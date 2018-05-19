@@ -1,0 +1,24 @@
+{
+  "name": "fp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo && jest"
+  },
+  "devDependencies": {
+    "jest": "^22.4.4",
+    "xo": "^0.21.0"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true,
+    "semicolon": false,
+    "envs": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "rxjs": "^6.1.0"
+  }
+}

@@ -7,18 +7,16 @@
     "test": "xo && jest"
   },
   "devDependencies": {
-    "jest": "^22.4.4",
-    "xo": "^0.21.0"
+    "jest": "^23.1.0",
+    "xo": "^0.21.1"
   },
   "xo": {
     "prettier": true,
     "space": true,
     "semicolon": false,
-    "envs": [
-      "jest"
-    ]
+    "envs": ["jest"]
   },
   "dependencies": {
-    "rxjs": "^6.1.0"
+    "rxjs": "^6.2.0"
   }
 }

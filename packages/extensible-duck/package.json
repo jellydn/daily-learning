@@ -6,24 +6,25 @@
   "scripts": {
     "start": "parcel index.html",
     "watch": "parcel watch index.html",
-    "build": "rm -rf dist && NODE_ENV=production parcel build index.html --public-url ./  && cp -R dist ../../pages/re-duck"
+    "build":
+      "rm -rf dist && NODE_ENV=production parcel build index.html --public-url ./  && cp -R dist ../../pages/re-duck"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "extensible-duck": "^1.4.0",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
     "react-redux": "^5.0.7",
-    "redux": "^3.7.2",
+    "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
-    "redux-promise-middleware": "^5.0.0"
+    "redux-promise-middleware": "^5.1.1"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.7.0",
+    "parcel-bundler": "^1.8.1",
     "redux-devtools-extension": "^2.13.2"
   }
 }

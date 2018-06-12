@@ -4,17 +4,23 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "xo && jest"
+    "test": "xo && jest",
+    "test:w": "jest --watch"
   },
   "devDependencies": {
+    "@types/jest": "^23.0.2",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.0.1",
     "jest": "^23.1.0",
+    "regenerator-runtime": "^0.11.1",
     "xo": "^0.21.1"
   },
   "xo": {
     "prettier": true,
     "space": true,
-    "semicolon": false,
-    "envs": ["jest"]
+    "envs": [
+      "jest"
+    ]
   },
   "dependencies": {
     "rxjs": "^6.2.0"

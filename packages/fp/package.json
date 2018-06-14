@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "xo && jest",
-    "test:w": "jest --watch"
+    "test": "xo --fix && jest",
+    "test:watch": "yarn test --watchAll"
   },
   "devDependencies": {
-    "@types/jest": "^23.0.2",
+    "@types/jest": "^23.1.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^23.0.1",
     "jest": "^23.1.0",
@@ -23,6 +23,7 @@
     ]
   },
   "dependencies": {
+    "ramda": "^0.25.0",
     "rxjs": "^6.2.0"
   }
 }

@@ -4,8 +4,7 @@ const isFieldExist = (obj, field) => Boolean(obj[field]);
 
 export function assignFieldWithDefault(obj, field, defaultValue) {
   return R.when(
-    R.has(isFieldExist),
-    result => result,
+    () => !isFieldExist(R.__, field),
     result => ({ ...result, [field]: defaultValue })
   )(obj);
 }
